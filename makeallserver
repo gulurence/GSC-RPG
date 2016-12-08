@@ -1,0 +1,33 @@
+#!/bin/bash
+
+cd ./MatchServer
+make -j4
+cd ..
+
+cd ./SuperServer
+make -j4
+cd ..
+
+cd ./LobbyServer
+make -j4
+cd ..
+
+cd ./RecordServer
+make -j4
+cd ..
+
+cd ./LogServer
+make -j4
+cd ..
+
+cd ./BattleServer
+make -j4
+cd ..
+
+cd ./RegServer
+make -j4
+cd ..
+
+cd ./SessionServer
+make -j4
+cd ..

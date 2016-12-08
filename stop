@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd CenterTools/
+./CenterClient -z 1
+cd ..

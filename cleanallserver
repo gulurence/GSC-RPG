@@ -1,0 +1,33 @@
+#!/bin/bash
+
+cd ./MatchServer
+make clean
+cd ..
+
+cd ./LobbyServer
+make clean
+cd ..
+
+cd ./BattleServer
+make clean
+cd ..
+
+#cd ./RegServer
+#make clean
+#cd ..
+
+cd ./SuperServer
+make clean
+cd ..
+
+cd ./LogServer
+make clean
+cd ..
+
+cd ./RecordServer
+make clean
+cd ..
+
+cd ./SessionServer
+make clean
+cd ..

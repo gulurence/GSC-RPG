@@ -1,0 +1,8 @@
+
+--This line, and those below, will be ignored--
+
+M    RegServer/RegServer
+M    Run.sh
+M    lib/xCommand/xCommand.h
+M    makeallserver
+M    stopallserver.sh
